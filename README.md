@@ -107,3 +107,15 @@ react/ant-design/cascader
 
 ##实际效果：完成了初步渲染，也就是目录可以产生，但是会出现渲染混乱
 ![实际效果如下](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B01.png)
+
+
+渲染混乱问题表现如下（以noteconfig与modelconfig举例
+
+1、首先，noteconfig的children只有四个config[上面可知],modelconfig有超过四个的config。
+![先点击modelconfig](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B03.png)
+
+但是如果先查看modelconfig，再查看noteconfig，就会发现，noteconfig多了重复的config，也有不属于它的config如图所示：
+
+![点击查看noteconfig](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B04.png)
+![题2](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B05.png)
+![问题3](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B06.png)
