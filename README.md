@@ -106,3 +106,4 @@ react/ant-design/cascader
 ```
 
 ##实际效果：完成了初步渲染，也就是目录可以产生，但是会出现渲染混乱
+![实际效果如下](https://github.com/rscv5/cascader/blob/main/%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B01.png)
